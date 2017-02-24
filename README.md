@@ -12,5 +12,7 @@ Install-Package Ssh.Net
 - Multi-threaded, can connect to several servers at once.
 - Supports both password and public-key authentication methods.
 - Capable of running scripts.
+- Platform detection.
+- stderr/stdout passthrough for each server to the log.
 
-For best results, you should use the `bash` shell on Linux-based systems - functionality is not guaranteed if your shell operates differently/uses different syntax.
+For best results, you should use the `bash` shell on Linux-based systems - functionality is not guaranteed if your shell operates differently/uses different syntax, or if your operating system is different.
