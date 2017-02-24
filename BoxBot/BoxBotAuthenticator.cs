@@ -17,7 +17,8 @@
         Success,
         BadPassword,
         RejectedKey,
-        InvalidKeyPassphrase
+        InvalidKeyPassphrase,
+        NotUsed
     }
 
     class BoxBotAuthenticator
@@ -93,6 +94,7 @@
             this.Username = Username;
             this.PrivateKeyPassphrase = PrivateKeyPassword;
             this.PrivateKeyPath = PrivateKeyPath;
+            this.Status = BoxBotAuthenticationStatus.Success;
         }
 
         /// <summary>
@@ -106,6 +108,7 @@
             this.AuthenticationMethod = BoxBotAuthenticationMethod.Password;
             this.Username = Username;
             this.Password = Password;
+            this.Status = BoxBotAuthenticationStatus.Success;
         }
     }
 }
