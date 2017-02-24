@@ -102,7 +102,7 @@
             // _BoxBotGoButton
             // 
             this._BoxBotGoButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this._BoxBotGoButton.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._BoxBotGoButton.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold);
             this._BoxBotGoButton.Location = new System.Drawing.Point(199, 13);
             this._BoxBotGoButton.Name = "_BoxBotGoButton";
             this._BoxBotGoButton.Size = new System.Drawing.Size(111, 52);
