@@ -40,6 +40,10 @@ namespace BoxBot
             // Write something to the log.
             WriteToLog(String.Format("[{0}] Starting BoxBot.", 
                 DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")));
+
+            // Display a warning error message.
+            MessageBox.Show("This is pre-alpha software and doesn't work in its current state.",
+                "BoxBot", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
         private void _BoxBotGoButton_Click(object sender, EventArgs e)

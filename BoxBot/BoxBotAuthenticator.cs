@@ -88,7 +88,7 @@
         public BoxBotAuthenticator(string Username, string PrivateKeyPath,
             string PrivateKeyPassword = "")
         {
-            // We're using the constructor for publickey auth, so we can set the auth method now.
+            // We're using the constructor for publickey authentication, so we can set the auth method now.
             this.AuthenticationMethod = BoxBotAuthenticationMethod.PublicKey;
             this.Username = Username;
             this.PrivateKeyPassphrase = PrivateKeyPassword;
