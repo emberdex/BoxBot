@@ -28,7 +28,7 @@ namespace BoxBot
             // Initialise all form components.
             InitializeComponent();
 
-            // Do some initial UI housekeeping shit.
+            // Do some initial UI housekeeping stuff.
             if (this._BoxBotTargetList.Items.Count == 0)
             {
                 this._BoxBotClearTargetsButton.Enabled = false;
